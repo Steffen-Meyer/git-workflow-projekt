@@ -11,8 +11,8 @@
     var length = methods.length;
     var console = (window.console = window.console || {});
 
-    var footer = 'foo';
-    var bar = footer
+    var foo = 'foo';
+    var bar = foo
     console.log(bar);
 
     while (length--) {
