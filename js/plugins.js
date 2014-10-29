@@ -11,6 +11,10 @@
     var length = methods.length;
     var console = (window.console = window.console || {});
 
+    var test = 'foo';
+    var bar = test
+    console.log(bar);
+
     while (length--) {
         method = methods[length];
 
