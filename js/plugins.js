@@ -11,7 +11,7 @@
     var length = methods.length;
     var console = (window.console = window.console || {});
 
-    var foo = 'hello world';
+    var foo = 'hallo welt';
     var bar = foo
     console.log(bar);
 
