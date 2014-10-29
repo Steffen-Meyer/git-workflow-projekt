@@ -15,6 +15,12 @@
     var bar = foo
     console.log(bar);
 
+
+    for (var i = 0, len = methods.length; i < len; i++) {
+        var obj = methods[i];
+        console.log("TEST");
+    }
+
     while (length--) {
         method = methods[length];
 
